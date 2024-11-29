@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section id="blog" class="section">
+    <div class="container">
+        <h2 class="section-title">Blog</h2>
+        <div class="row">
+            {% for post in posts %}
+            <div class="col-md-6 mb-4">
+                <div class="blog-card">
+                    <div class="blog-card-body">
+                        <h3><a href="{{ url_for('blog_post', post_id=post.id) }}">{{ post.title }}</a></h3>
+                        <p class="blog-date">{{ post.created_at.strftime('%B %d, %Y') }}</p>
+                        <p class="blog-excerpt">{{ post.content[:200] }}...</p>
+                        <a href="{{ url_for('blog_post', post_id=post.id) }}" class="btn btn-primary btn-sm">Read More</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}
