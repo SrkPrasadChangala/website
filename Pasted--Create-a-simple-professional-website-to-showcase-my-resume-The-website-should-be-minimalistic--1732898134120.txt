@@ -1,0 +1,78 @@
+
+
+*“Create a simple, professional website to showcase my resume. The website should be minimalistic, clean, and easy to navigate. It will include sections such as my introduction, skills, work experience, education, certifications, and contact information. The site should be designed to be hosted on GitHub Pages.”*
+
+---
+
+### **Directory Structure for the Project**  
+```
+resume-website/
+├── index.html              # Main HTML file for the homepage
+├── assets/                 # Directory for images, icons, and other assets
+│   ├── profile.jpg         # Profile image
+│   └── logo.png            # Optional logo or branding
+├── css/                    # Stylesheets
+│   └── style.css           # Main CSS file for styling
+├── js/                     # JavaScript files (if needed)
+│   └── script.js           # Optional JS file for interactivity
+├── README.md               # Documentation for GitHub Pages setup
+└── .gitignore              # To exclude unnecessary files from GitHub
+```
+
+---
+
+### **Content Sections to Include in the Website:**
+
+#### 1. **Introduction Section**  
+   - **Name:** Siva Rama Krishna Prasad Changala  
+   - **Tagline:** Software Developer | Cloud Enthusiast | AI/ML Advocate | Security Analyst  
+   - **Short Bio:**  
+     I am a software developer with expertise in cloud technologies, AI/ML, and IT Quality Assurance. I hold certifications in AWS Developer and CKAD, and I have experience working with Python, Java, React, and databases like SQL and MongoDB. I am passionate about building scalable and secure applications, and my goal is to continue expanding my skills in multi-cloud development and security analysis.
+
+#### 2. **Skills Section**  
+   - **Programming Languages:** Python, Java, JavaScript, React  
+   - **Cloud Platforms:** AWS (Developer Certified), Google Cloud (Learning), multi-cloud architecture  
+   - **DevOps & Tools:** GitHub, Jenkins, Docker, Kubernetes    
+   - **Databases:** SQL, MongoDB  
+   - **Certifications:** AWS Developer, CKAD, Machine Learning Specialization (Coursera)
+
+#### 3. **Work Experience Section**  
+   - **Graduate Research Assistant** (2024 - Present)  
+     - Focused on applying generative AI methods and large language models to address program analysis challenges.  
+     - Worked with Dr. Junjie Zhang and Dr. Lingwei Chen.  
+   - **Software Development Intern** (2023)  
+     - Developed cloud-native applications using AWS Lambda, Python, and React.  
+     - Contributed to DevOps practices using Jenkins and Docker.  
+   - **Penetration Testing Intern** (2022)  
+     - Conducted vulnerability assessments and penetration tests for clients.  
+     - Created security reports and suggested remediation strategies.
+
+#### 4. **Education Section**  
+   - **Master’s Degree in Computer Science** (Expected December 2024)  
+     - University: [Your University Name]  
+   - **Bachelor of Technology (B.Tech) in Computer Science**  
+     - Institution: [Your Institution Name]  
+     - Graduation Year: 2022
+
+#### 5. **Certifications Section**  
+   - **AWS Developer** (Certification ID: [Your Certification ID])   
+   - **CKAD - Certified Kubernetes Application Developer**  
+   - **Machine Learning Specialization - Coursera** (Stanford University, deeplearning.ai)
+
+#### 6. **Contact Section**  
+   - **Email:** minimalist1012@gmail.com 
+   - **LinkedIn:** [lhttps://www.linkedin.com/in/siva-rama-krishna-prasad-changala-a3115a253/](#)  
+   - **GitHub:** [https://github.com/SrkPrasadChangala](#)
+
+---
+
+### **How to Host the Website on GitHub Pages**:
+
+1. Push the project to a GitHub repository.
+2. Go to the **Settings** tab of the repository.
+3. Scroll down to the **GitHub Pages** section, and under **Source**, select **main branch**.
+4. Your website will be available at `https://<username>.github.io/<repository-name>/`.
+
+---
+
+You can replace the placeholders (like `[Your University Name]`) with your actual details, and add a profile image in the `assets/` directory. Let me know if you need help with the HTML/CSS or any other parts!
