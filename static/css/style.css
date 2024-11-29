@@ -155,6 +155,54 @@ body {
     left: 0;
 }
 
+/* Portfolio Section */
+.portfolio-card {
+    background-color: var(--timeline-bg);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.portfolio-card-body {
+    padding: 1.5rem;
+}
+
+.portfolio-card h3 {
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.tech-stack {
+    margin: 1rem 0;
+}
+
+.tech-stack .badge {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    background-color: var(--secondary-color);
+}
+
+.portfolio-links {
+    margin-top: 1rem;
+}
+
+.portfolio-links .btn {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.portfolio-links i {
+    margin-right: 0.25rem;
+}
+
 /* Contact Section */
 .contact-info {
     text-align: center;
