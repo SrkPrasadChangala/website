@@ -3,7 +3,18 @@
     --secondary-color: #3498db;
     --bg-color: #f8f9fa;
     --text-color: #2c3e50;
+    --timeline-bg: #ffffff;
+    --navbar-bg: #f8f9fa;
     --section-padding: 80px 0;
+}
+
+[data-theme="dark"] {
+    --primary-color: #ecf0f1;
+    --secondary-color: #3498db;
+    --bg-color: #2c3e50;
+    --text-color: #ecf0f1;
+    --timeline-bg: #34495e;
+    --navbar-bg: #34495e;
 }
 
 body {
@@ -17,11 +28,29 @@ body {
 .navbar {
     padding: 1rem 0;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: var(--navbar-bg);
+    transition: background-color 0.3s ease;
 }
 
 .navbar-brand {
     font-weight: 700;
     color: var(--primary-color);
+}
+
+.nav-link {
+    color: var(--text-color) !important;
+}
+
+#theme-toggle {
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#theme-toggle:hover {
+    transform: scale(1.1);
 }
 
 /* Hero Section */
@@ -92,9 +121,10 @@ body {
 .timeline-item {
     margin-bottom: 2rem;
     padding: 1.5rem;
-    background: white;
+    background: var(--timeline-bg);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
 }
 
 .timeline-date {
